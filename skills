@@ -1,8 +1,0 @@
-cd ~/YouTube-agent-
-git status
-git remote add source https://github.com/Jakeschincariol/youtube-agent-skill.git 2>/dev/null || git remote set-url source https://github.com/Jakeschincariol/youtube-agent-skill.git
-git fetch source
-git checkout source/main -- skills/
-git add skills/
-git commit -m "Add YouTube agent skills"
-git push origin main
