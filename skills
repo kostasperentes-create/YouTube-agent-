@@ -1,4 +1,4 @@
-cd ~/YouTube-agent
+cd ~/YouTube-agent-
 git remote add source https://github.com/Jakeschincariol/youtube-agent-skill.git
 git fetch source
 git checkout source/main -- .
